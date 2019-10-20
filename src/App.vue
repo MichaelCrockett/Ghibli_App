@@ -2,12 +2,12 @@
   <div>
     <h1>The films of Studio Ghibli</h1>
     <div class="main-container">
-      <!-- <form>
+      <form>
         <film-select
         :selectedFilmTitle="selectedFilmTitle"
         :films="films">
       </film-select>
-    </form> -->
+    </form>
     <film-detail :film='selectedFilm'></film-detail>
     <films-list :films='films'></films-list>
   </div>
@@ -66,8 +66,7 @@ h1  {
   font-family: Verdana;
   font-size: 40px;
   align-content: center;
-  margin-top: 30px
-
+  margin-top: 30px;
 }
 
 body {
@@ -76,7 +75,10 @@ body {
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
+}
 
-
+form {
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
 </style>

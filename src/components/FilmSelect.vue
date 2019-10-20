@@ -1,7 +1,7 @@
 <template lang="html">
   <select v-on:change="handleSelectFilm" v-model="selectedFilmTitle">
-    <option value="" disabled>
-      {{ films.length ? 'Please select a film...' : 'Loading films...' }}
+    <option value="Pick a film">
+      {{ films.length }}
     </option>
 
     <option

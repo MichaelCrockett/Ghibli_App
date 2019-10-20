@@ -24,22 +24,14 @@ export default {
   border-style: solid;
   border-color: saddlebrown;
   margin: 10px;
-  padding: 10px;
-}
-
-list-item {
-  background-color: wheat;
-  border-style: solid;
-  border-color: saddlebrown;
-  margin: 10px;
-  padding: 10px;
-  max-width: 60%;
+  padding: 10px
 }
 
 
 ul {
   list-style-type: none;
   font-size: 30px;
+  padding-left: 20px;
 }
 
 </style>
